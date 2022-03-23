@@ -1,0 +1,75 @@
+.bg-primary{
+    background-color: var(--primary-color);
+    color:#fff;
+}
+.bg-secondery{
+    background-color: var(--secondery-color);
+    color:#fff;
+}
+.bg-dark{
+    background-color: var(--dark-color);
+    color:#fff;
+}
+.bg-light{
+    background-color: var(--light-color);
+    color:#000 ;
+}
+.flex{
+    display: flex;
+    justify-content: space;
+    align-items: center;
+}
+.container{
+    max-width: 1100px;
+    height: 70px;
+    padding: 0 40px;
+    margin: auto;
+}
+.grid{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns:repeat(2,1fr);
+    gap: 20px;
+}
+/* margins */
+.my-1{
+    margin: 15px  00;
+}
+.my-2{
+    margin:  20px 0;
+}
+.my-3{
+    margin:  25px 0;
+}
+.my-4{
+    margin:  30px 0;
+}
+.my-5{
+    margin:  35px 0;
+}
+.py-1{
+    padding: 40px 0;
+}
+.py-2{
+    padding: 40px 0;
+}
+.py-3{
+    padding: 40px 0;
+}
+.py-4{
+    padding: 40px 0;
+}
+.py-5{
+    padding: 40px 0;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+
+    justify-content: center;
+    align-items: center;
+}
+
